@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('D:/aditya python/Gold Price Prediction/trained model.sav', 'rb'))
+loaded_model = pickle.load(open('trained model.sav', 'rb'))
 
 def gold_price_prediction(input_data):
     input_data = np.array(input_data)
